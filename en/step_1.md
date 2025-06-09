@@ -2,7 +2,7 @@
 OR
 ## What you will do - change meta if you use this
 
-A brief description - one or two sentences. 
+A brief description - one or two sentences. OK!
 
 --- print-only ---
 ![ALT TEXT](images/IMAGE.png)
