@@ -1,65 +1,47 @@
-## Make flag decoration
+## Making a selector button
 
 
 --- task ---
-add flag decoration sprite to the kit in each colour
+Make a new button sprite. 
+
+It'll need to have two costumes, one for when you are choosing the kit colours, another for when you are choosing flag colours. We've created a t-shirt and a flag, but you could also use a regualr button. 
 --- /task ---
 
 
 --- task ---
-add a selector sprite 
+We neeed to toggle the button between the kit or flag. To do this we can use a variable that stores the words "kit" or "flag". 
+
+Make a variable and name it button. If you like you can add a blue tick to help you see what is being stored. 
 --- /task ---
 
 
 --- task ---
-add chooser code to selector sprite
+We can start with storing the word "kit" by setting button variable to "kit" when green flag is clicked 
+
+when flag clicked
+set [button v] to [kit]
+--- /task ---
+
+
+--- task ---
+Let's use an operator to check what is being stored in the button variable. If the button is storing "kit" we'll change is to now store "flag". Otherwsie, we set it to "kit.
 
 when this sprite clicked
-if <[button] = [kit]> then
-set [button] to [flag]
+if <[button v] = [kit]> then
+set [button v] to [flag]
 else
-set [button] to [kit] 
+set [button v] to [kit]
 --- /task ---
 
 
 --- task ---
-add a selector sprite 
+ADD - switch costume (not broarccast yet)
 
 when flag clicked
 set [button] to [kit] // reset to kit
 forever
 if <[button] = [kit]> then
-broadcast [kit]
 switch costume to [kit-button]
 if <[button]=[flag]> then
-broadcast [flag]
 switch costume to [flag-button]
 --- /task ---
-
-
---- task ---
-checking the status of the chooser to broardcast a message and change the sprite
-
-when flag clicked
-set [button v] to [kit] // reset to kit
-forever
-if <(button) = [kit]> then
-broadcast [kit]
-switch costume to [kit-button v]
-if <(button)=[flag]> then
-broadcast [flag]
-switch costume to [flag-button v]
-
---- /task ---
-
---- task ---
-change the blocks in the sprites so that they are responding to the chooser
-
-gif of moveing the blocks
-
-when I receive [yellow v]
-if <(button) = [flag]> then
- switch costume to [yellow v]
-
---- /task ---
-

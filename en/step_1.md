@@ -1,13 +1,7 @@
 ## What you will make!!!
-OR
-## What you will do - change meta if you use this
 
-A brief description - one or two sentences. OK!
-another test change
-another change
-1111
-hello
-stage
+Design a kit for your favourite sports team! 
+
 --- print-only ---
 ![ALT TEXT](images/IMAGE.png)
 --- /print-only ---
