@@ -11,9 +11,16 @@ Create colour pickers
 
 --- /task ---
 add broadcast code to colour
+
+when this sprite clicked
+broadcast [pink]
+
 --- task ---
 
 
 --- /task ---
 add receive code to kit
+
+when I receive [pink]
+switch costume to [pink]
 --- task ---
