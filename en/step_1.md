@@ -7,6 +7,7 @@ another test change
 another change
 1111
 hello
+stage
 --- print-only ---
 ![ALT TEXT](images/IMAGE.png)
 --- /print-only ---
