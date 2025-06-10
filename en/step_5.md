@@ -1,27 +1,21 @@
 ## Challange
 
 --- task ---
-= try adding more items of the kit - what about socks, boots, hoodies, more decoration options?
-
-
-
+Can you create more items for the kit - what about socks, boots, hoodies, or more decoration?
 --- /task ---
 
 
 --- task ---
-= save the kit (downloadable image)
-
+You could save the kit as an image and share with you local team
 --- /task ---
 
 
 --- task ---
-= use variable and ask to get a team name
-
+What's the team called? Use the ask block to add the team name to the project
 --- /task ---
 
 
 
 --- task ---
-= add sound
-
+Can you add sounds? How about a different sound for selecting kit or flag?
 --- /task ---

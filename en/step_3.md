@@ -24,7 +24,7 @@ set [button v] to [kit]
 
 
 --- task ---
-Let's use an operator to check what is being stored in the button variable. If the button is storing "kit" we'll change is to now store "flag". Otherwsie, we set it to "kit.
+Let's use an operator to check what is being stored in the button variable. If the button is storing "kit" we'll change is to "flag". Otherwsie, we set it to "kit".
 
 when this sprite clicked
 if <[button v] = [kit]> then
@@ -35,7 +35,7 @@ set [button v] to [kit]
 
 
 --- task ---
-ADD - switch costume (not broarccast yet)
+We can swtich between the kit and flag costumes depending on if the button is kit or flag. Put this inside forever block, otherwise it will only switch once. 
 
 when flag clicked
 set [button] to [kit] // reset to kit
