@@ -27,7 +27,7 @@ set [button v] to [kit]
 --- task ---
 Let's use an operator to check what is being stored in the button variable. If the button is storing "kit" we'll change is to "flag". Otherwsie, we set it to "kit".
 
-```blocks3
+```scratch3
 when this sprite clicked
 if <[button v] = [kit]> then
 set [button v] to [flag]
@@ -40,6 +40,7 @@ set [button v] to [kit]
 --- task ---
 We can swtich between the kit and flag costumes depending on if the button is kit or flag. Put this inside forever block, otherwise it will only switch once. 
 
+```blocks3
 when flag clicked
 set [button] to [kit] // reset to kit
 forever
@@ -47,4 +48,5 @@ if <[button] = [kit]> then
 switch costume to [kit-button]
 if <[button]=[flag]> then
 switch costume to [flag-button]
+```
 --- /task ---
