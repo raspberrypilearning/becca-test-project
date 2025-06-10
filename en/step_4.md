@@ -31,9 +31,11 @@ In the flag spite do the same - add an if block so that it only switches when th
 
 gif of moveing the blocks
 
+```blocks3
 when I receive [yellow v]
 if <(button) = [flag]> then
  switch costume to [yellow v]
+```
 
 --- /task ---
 

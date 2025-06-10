@@ -1,10 +1,5 @@
 ## Making a selector button
 
-
-`turn 15`{:class="block3motion"}
-
-
-
 --- task ---
 Make a button sprite. 
 

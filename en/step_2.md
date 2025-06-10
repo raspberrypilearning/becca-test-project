@@ -34,8 +34,10 @@ broadcast [pink]
 --- task ---
 Add a receive block to kit sprite for each colour option you have
 
+```blocks3
 when I receive [pink]
 switch costume to [pink]
+```
 --- /task ---
 
 --- task ---
