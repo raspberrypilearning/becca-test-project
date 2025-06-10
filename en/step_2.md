@@ -18,24 +18,26 @@ Name the costumes after the colour
 Create colour picker sprites for each costume - these could be squares, circles, or draw them freehand with the paint tool like we did. 
 
 Name the sprites after the colour
-
 --- /task ---
+
+
+--- task ---
 Add a broadcast message to each of the colour sprites. 
 
 [scratchblocks]
 when this sprite clicked
 broadcast [pink]
 [/scratchblocks]
---- task ---
-
 
 --- /task ---
+
+
+--- task ---
 Add a receive block to kit sprite for each colour option you have
 
 when I receive [pink]
 switch costume to [pink]
---- task ---
-
+--- /task ---
 
 --- task ---
 We've used flags to decorate the kit. 

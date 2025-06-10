@@ -1,10 +1,14 @@
 ## Making a selector button
 
 
---- task ---
-Make a new button sprite. 
+`turn 15`{:class="block3motion"}
 
-It'll need to have two costumes, one for when you are choosing the kit colours, another for when you are choosing flag colours. We've created a t-shirt and a flag, but you could also use a regualr button. 
+
+
+--- task ---
+Make a button sprite. 
+
+It'll need to have two costumes, one for when you are choosing the kit colours, another for when you are choosing flag colours. We've created a t-shirt and a flag, but you could also use a regular button. 
 --- /task ---
 
 
@@ -18,19 +22,23 @@ Make a variable and name it button. If you like you can add a blue tick to help 
 --- task ---
 We can start with storing the word "kit" by setting button variable to "kit" when green flag is clicked 
 
+```blocks3
 when flag clicked
 set [button v] to [kit]
+``` 
 --- /task ---
 
 
 --- task ---
 Let's use an operator to check what is being stored in the button variable. If the button is storing "kit" we'll change is to "flag". Otherwsie, we set it to "kit".
 
+```blocks3
 when this sprite clicked
 if <[button v] = [kit]> then
 set [button v] to [flag]
 else
 set [button v] to [kit]
+``` 
 --- /task ---
 
 
