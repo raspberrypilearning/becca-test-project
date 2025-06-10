@@ -24,11 +24,10 @@ Name the sprites after the colour
 --- task ---
 Add a broadcast message to each of the colour sprites. 
 
-[scratchblocks]
+```blocks3
 when this sprite clicked
 broadcast [pink]
-[/scratchblocks]
-
+``` 
 --- /task ---
 
 
