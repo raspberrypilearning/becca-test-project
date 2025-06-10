@@ -27,13 +27,13 @@ set [button v] to [kit]
 --- task ---
 Let's use an operator to check what is being stored in the button variable. If the button is storing "kit" we'll change is to "flag". Otherwsie, we set it to "kit".
 
-```scratch3
+```blocks3
 when this sprite clicked
-if <[button v] = [kit]> then
-set [button v] to [flag]
+if <(button) = (kit)> then
+set [button v] to (flag)
 else
-set [button v] to [kit]
-``` 
+set [button v] to (kit)
+```
 --- /task ---
 
 
