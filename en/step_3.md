@@ -25,7 +25,7 @@ We can start with storing the word "kit" by setting button variable to "kit" whe
 ```blocks3
 when flag clicked
 set [button v] to [kit]
-``` 
+```
 
 --- /task ---
 
