@@ -27,6 +27,9 @@ set [button v] to [kit]
 --- task ---
 Let's use an operator to check what is being stored in the button variable. If the button is storing "kit" we'll change is to "flag". Otherwsie, we set it to "kit".
 
+An image:
+![trying out an image](images/img1.png)
+
 ```blocks3
 when this sprite clicked
 if <(button) = (kit)> then
