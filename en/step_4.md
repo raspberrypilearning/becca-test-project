@@ -3,6 +3,7 @@
 --- task ---
 Add broadcast blocks 
 
+```blocks3
 when flag clicked
 set [button] to [kit] // reset to kit
 forever
@@ -12,6 +13,7 @@ switch costume to [kit-button]
 if <[button]=[flag]> then
 broadcast (flag)
 switch costume to [flag-button]
+```
 --- /task ---
 
 
@@ -20,9 +22,11 @@ In the kit spite add an if block so that it only switches when the button is set
 
 // gif of moving the blocks
 
+```blocks3
 when I receive [yellow v]
 if <(button) = [flag]> then
  switch costume to [yellow v]
+```
 
 --- /task ---
 
