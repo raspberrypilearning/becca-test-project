@@ -27,7 +27,7 @@ set [button v] to [kit]
 --- task ---
 Let's use an operator to check what is being stored in the button variable. If the button is storing "kit" we'll change is to "flag". Otherwsie, we set it to "kit".
 
-![panda](images/img1.png)
+![panda](images/panda.png)
 
 ```blocks3
 when this sprite clicked
@@ -41,6 +41,7 @@ set [button v] to (kit)
 
 --- task ---
 We can swtich between the kit and flag costumes depending on if the button is kit or flag. Put this inside forever block, otherwise it will only switch once. 
+![cat](images/cat.gif)
 
 ```blocks3
 when flag clicked
