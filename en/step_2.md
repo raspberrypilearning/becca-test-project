@@ -1,9 +1,18 @@
 ## Creating your kit
 
+In this step you'll design the basics of the kit, and can add a background too.
+
 --- task ---
 Delete the cat sprite and create a sports kit, you could draw with the paint tool, or look up a sprite.
 
-We used a t-shirt and shorts sprite, using the gradient fill to make the costume colours pop!
+![ADDDDDDDD](images/step2/choose.png)
+
+![ADDDDDDDD](images/step2/shirt.png)
+
+We used a shirt and shorts sprite, using the gradient fill to make the costume colours pop!
+
+![ADDDDDDDD](images/step2/fill.png)
+
 --- /task ---
 
 

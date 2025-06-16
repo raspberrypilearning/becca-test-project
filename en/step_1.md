@@ -1,6 +1,6 @@
 ## What you will make!
 
-Create a **kit chooser** to make custom kits for your favourite sports team! 
+Create a **kit chooser** to make custom kits for your favourite sports team!
 
 You will:
 - make sprites that change colours 🎨
