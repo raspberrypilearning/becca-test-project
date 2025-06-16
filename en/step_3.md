@@ -50,6 +50,7 @@ set [button v] to (kit)
 --- task ---
 
 We can swtich between the kit and flag costumes depending on if the button is kit or flag. Put this inside forever block, otherwise it will only switch once. 
+
 ![cat](images/cat.gif)
 
 ```blocks3
