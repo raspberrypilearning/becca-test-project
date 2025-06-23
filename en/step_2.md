@@ -35,7 +35,7 @@ Fill each costume with a new colour and name the costumes to match.
 START HERE
 Create colour picker sprites for each costume - these could be squares, circles, or draw them freehand with the paint tool like we did. 
 
-Name the sprites after the colour
+Name each costume after the colour
 --- /task ---
 
 
