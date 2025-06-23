@@ -1,57 +1,72 @@
-## Making a selector button
+## Decorating the kit
 
 --- task ---
+Create a pattern sprite to decorate your kit.
 
-Make a button sprite. 
+Duplicate your pattern costume and fill in each colour. You might want to make the colours a bit different from the kit so that they stand out.
 
-It'll need to have two costumes, one for when you are choosing the kit colours, another for when you are choosing flag colours. We've created a t-shirt and a flag, but you could also use a regular button. 
+![Scratch editor - making pattern on shirt](images/pattern.png)
+
+--- /task ---
+
+--- task ---
+We'll use a button to switch between colouring the kit and pattern. 
+
+Make two costumes for the button, one for when you are choosing the kit colours, another for when you are choosing flag colours. We've created a t-shirt and a flag, but you could also use a circle shape. The main thing is to make them different. 
+
+![Scratch editor - making button sprites](images/button.png)
 
 --- /task ---
 
 
 --- task ---
 
-We neeed to toggle the button between the kit or flag. To do this we can use a variable that stores the words "kit" or "flag". 
+To do toggle between the buttons, use a `variable`{:class="block3variables"} block variable and name it button. If you like you can add a blue tick to help you see what is being stored. 
 
-Make a variable and name it button. If you like you can add a blue tick to help you see what is being stored. 
+![pop-up new variable name box in Scratch](make-variable.png)
 
 --- /task ---
 
 
 --- task ---
 
-We can start with storing the word "kit" by setting button variable to "kit" when green flag is clicked 
+Use the green `flag`{:class="block3events"} block and `set`{:class="block3variables"} the button to pattern 
 
 ```blocks3
 when flag clicked
-set [button v] to [kit]
+set [button v] to [pattern]
 ```
-
 --- /task ---
 
 
 --- task ---
+The button will change when we click on it. Use a `when sprite clicked`{:class="block3events"} block to start with.
 
-Let's use an operator to check what is being stored in the button variable. If the button is storing "kit" we'll change is to "flag". Otherwsie, we set it to "kit".
+Add an `if else`{:class="block3control"} block, this can be used to change what `variable`{:class="block3variables"} is stored.
 
-![panda](images/panda.png)
+![gif of scratch operator block](images/button.gif)
+
+`If`{:class="block3operators"} the button is set to kit, then we change it to pattern. Otherwise (`else`{:class="block3operators"}) we keep it set as kit.
 
 ```blocks3
 when this sprite clicked
 if <(button) = (kit)> then
-set [button v] to (flag)
+set [button v] to (pattern)
 else
 set [button v] to (kit)
 ```
 
---- /task ---
+---/task ---
 
 
 --- task ---
 
-We can swtich between the kit and flag costumes depending on if the button is kit or flag. Put this inside forever block, otherwise it will only switch once. 
+Now we can change between cosutmes using the button `variable`{:class="block3variables"}.
 
-![cat](images/cat.gif)
+If the button is set to pattern then change costume to pattern, else change costume to kit.
+
+Put this inside forever block, otherwise it will only switch once. 
+
 
 ```blocks3
 when flag clicked

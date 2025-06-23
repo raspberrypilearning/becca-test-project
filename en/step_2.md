@@ -56,7 +56,7 @@ broadcast [blue]
 
 
 --- task ---
-Add a `receive`{:class="block3events"} block that `switches`{:class="block3events"} the kit costume for each colour
+Add a `receive`{:class="block3events"} block that `switches`{:class="block3looks"} the kit costume for each colour
 
 ```blocks3
 when I receive [blue]
@@ -65,3 +65,8 @@ switch costume to [blue]
 
 --- /task ---
 
+--- task ---
+Test your project!
+
+You should be able to click the colours to change your kit 👕
+--- /task ---

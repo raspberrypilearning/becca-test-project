@@ -1,12 +1,6 @@
 ## Adding decoration
 
 --- task ---
-We've used flags to decorate the kit. 
-
-Create a flag sprite then duplicate and fill flag costumes in each colour. You might want to make the colours a bit different from the kit so that they stand out.
---- /task ---
-
---- task ---
 Add broadcast blocks 
 
 ```blocks3
