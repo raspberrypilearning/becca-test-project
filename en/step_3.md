@@ -1,4 +1,4 @@
-## Decorating the kit
+## Adding decoration
 
 --- task ---
 Create a pattern sprite to decorate your kit.
@@ -23,7 +23,7 @@ Make two costumes for the button, one for when you are choosing the kit colours,
 
 To do toggle between the buttons, use a `variable`{:class="block3variables"} block variable and name it button. If you like you can add a blue tick to help you see what is being stored. 
 
-![pop-up new variable name box in Scratch](make-variable.png)
+![pop-up new variable name box in Scratch](images/make-variable.png)
 
 --- /task ---
 
@@ -42,11 +42,13 @@ set [button v] to [pattern]
 --- task ---
 The button will change when we click on it. Use a `when sprite clicked`{:class="block3events"} block to start with.
 
-Add an `if else`{:class="block3control"} block, this can be used to change what `variable`{:class="block3variables"} is stored.
+Add an `if else`{:class="block3control"} block, this can be used to change what button `variable`{:class="block3variables"} is stored. Drop an `operator`{:class="block3operators"} into this.
+
+`If`{:class="block3control"} the button is set to kit, then we change it to pattern. Otherwise (`else`{:class="block3control"}) we keep it set as kit.
 
 ![gif of scratch operator block](images/button.gif)
 
-`If`{:class="block3operators"} the button is set to kit, then we change it to pattern. Otherwise (`else`{:class="block3operators"}) we keep it set as kit.
+Here is what the whole block looks like
 
 ```blocks3
 when this sprite clicked
@@ -67,15 +69,18 @@ If the button is set to pattern then change costume to pattern, else change cost
 
 Put this inside forever block, otherwise it will only switch once. 
 
-
 ```blocks3
 when flag clicked
 set [button] to [kit] // reset to kit
 forever
 if <[button] = [kit]> then
 switch costume to [kit-button]
-if <[button]=[flag]> then
-switch costume to [flag-button]
+if <[button]=[pattern]> then
+switch costume to [pattern-button]
 ```
 
+--- /task ---
+
+--- task ---
+Test to see if it has worked by cliking on the green flag. Now when you click the button in the scene it should toggle between the two costumes 
 --- /task ---

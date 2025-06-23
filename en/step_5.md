@@ -1,21 +1,13 @@
 ## Challange
 
 --- task ---
-Can you create more items for the kit - what about socks, boots, hoodies, or more decoration?
+What else is in the kit? Can you create more designs - what about socks, boots, hoodies, or more decoration?
 --- /task ---
 
-
 --- task ---
-You could save the kit as an image and share with you local team
+What's the team called? Try using the `ask`{:class="block3sensing"} block to add the team name to the project
 --- /task ---
 
-
 --- task ---
-What's the team called? Use the ask block to add the team name to the project
---- /task ---
-
-
-
---- task ---
-Can you add sounds? How about a different sound for selecting kit or flag?
+Can you add sounds? How about a different sound for selecting kit or pattern?
 --- /task ---

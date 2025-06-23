@@ -1,4 +1,4 @@
-title: Kit designer
+title: Kit chooser
 hero_image: images/banner.png
 description: default-project-template description
 version: 1
@@ -8,7 +8,7 @@ last_tested: "2025-01-01"
 steps:
   - title: What you will make
   - title: Creating your kit
-  - title: Making a selector button
   - title: Adding decoration
+  - title: 
   - title: Challange
   - title: What can you do now?
