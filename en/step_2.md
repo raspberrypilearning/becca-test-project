@@ -43,7 +43,7 @@ Duplicate a sprite, and change the fill for each colour. Then name them after th
 
 --- task ---
 
-Add a `when this sprite is clicked`{:class="block3events"} block and add a `broadcast` message to each of the colour sprites.
+Add a `when sprite clicked`{:class="block3events"} block and add a `broadcast`{:class="block3events"} message to each of the colour sprites.
 
 Name the new message after the colour. 
 
@@ -56,7 +56,7 @@ broadcast [blue]
 
 
 --- task ---
-Add a receive to switch the kit costume for each colour
+Add a `receive`{:class="block3events"} block that `switches`{:class="block3events"} the kit costume for each colour
 
 ```blocks3
 when I receive [blue]
