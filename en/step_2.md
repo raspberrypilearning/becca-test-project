@@ -43,7 +43,7 @@ Duplicate a sprite, and change the fill for each colour. Then name them after th
 
 --- task ---
 
-Add a `when this sprite is clicked `{:class="block3events"} block and add a broadcast message to each of the colour sprites.
+Add a `when this sprite is clicked`{:class="block3events"} block and add a `broadcast` message to each of the colour sprites.
 
 Name the new message after the colour. 
 
