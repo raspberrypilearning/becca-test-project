@@ -82,4 +82,4 @@ switch costume to [pattern-button]
 --- /task ---
 
 
-Test to see if it has worked by cliking on the green flag. Now when you click the button in the scene it should toggle between the two costumes 
+Test to see if it has worked by cliking on the green flag. Now when you click the button in the scene it should toggle between the two costumes 🔘
