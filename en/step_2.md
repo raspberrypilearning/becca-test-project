@@ -34,7 +34,7 @@ Fill each costume with a new colour and name the costumes to match.
 --- task ---
 Create colour picker sprites. These could be squares, circles, or draw them freehand with the paint tool. 
 
-Duplicate a sprite for each colour and name them after the colour.
+Duplicate a sprite, and change the fill for each colour. Then name them after the colour.
 
 ![Making new sprites for colour pickers in skratch, round balls in different colours](images/colour-sprite.png)
 
@@ -43,7 +43,7 @@ Duplicate a sprite for each colour and name them after the colour.
 
 --- task ---
 
-When sprite is clicked add a broadcast message to each of the colour sprites. 
+Add a `when this sprite is clicked `{:class="block3events"} block and add a broadcast message to each of the colour sprites.
 
 Name the new message after the colour. 
 
@@ -51,26 +51,17 @@ Name the new message after the colour.
 when this sprite clicked
 broadcast [blue]
 ``` 
-![adding a broadcast message in Scratch](images/broadcast1.png)
-
-![chaning the message to blue](images/broadcast2.png)
-
 
 --- /task ---
 
 
 --- task ---
-Add a receive to the kit sprite for each colour you have
+Add a receive to switch the kit costume for each colour
 
 ```blocks3
 when I receive [blue]
 switch costume to [blue]
 ```
---- /task ---
 
---- task ---
-We've used flags to decorate the kit. 
-
-Create a flag sprite then duplicate and fill flag costumes in each colour. You might want to make the colours a bit different from the kit so that they stand out.
 --- /task ---
 
