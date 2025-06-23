@@ -65,8 +65,7 @@ switch costume to [blue]
 
 --- /task ---
 
---- task ---
 Test your project!
 
 You should be able to click the colours to change your kit 👕
---- /task ---
+

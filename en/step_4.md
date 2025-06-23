@@ -31,7 +31,6 @@ if <(button) = [pattern]> then
 
 --- /task ---
 
---- task ---
-Test it out! You should be able to change the kit and pattern colours. 
 
---- /task ---
+Test it out! You've made a kit chooser! You should be able to change the kit and pattern colours to create a custom design! 
+

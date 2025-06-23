@@ -21,7 +21,7 @@ Make two costumes for the button, one for when you are choosing the kit colours,
 
 --- task ---
 
-To do toggle between the buttons, use a `variable`{:class="block3variables"} block variable and name it button. If you like you can add a blue tick to help you see what is being stored. 
+To toggle between the buttons, make a new `variable`{:class="block3variables"} and name it button.
 
 ![pop-up new variable name box in Scratch](images/make-variable.png)
 
@@ -81,6 +81,5 @@ switch costume to [pattern-button]
 
 --- /task ---
 
---- task ---
+
 Test to see if it has worked by cliking on the green flag. Now when you click the button in the scene it should toggle between the two costumes 
---- /task ---
