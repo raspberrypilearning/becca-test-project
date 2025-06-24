@@ -6,7 +6,6 @@ Create a pattern sprite to decorate your kit.
 Duplicate your pattern costume and fill in each colour. You might want to make the colours a bit different from the kit so that they stand out.
 
 ![Scratch editor - making pattern on shirt](images/pattern.png)
-
 --- /task ---
 
 --- task ---
@@ -15,21 +14,17 @@ We'll use a button to switch between colouring the kit and pattern.
 Make two costumes for the button, one for when you are choosing the kit colours, another for when you are choosing flag colours. We've created a t-shirt and a flag, but you could also use a circle shape. The main thing is to make them different. 
 
 ![Scratch editor - making button sprites](images/button.png)
-
 --- /task ---
 
 
 --- task ---
-
 To toggle between the buttons, make a new `variable`{:class="block3variables"} and name it button.
 
 ![pop-up new variable name box in Scratch](images/make-variable.png)
-
 --- /task ---
 
 
 --- task ---
-
 Use the green `flag`{:class="block3events"} block and `set`{:class="block3variables"} the button to pattern 
 
 ```blocks3
@@ -57,12 +52,10 @@ set [button v] to [pattern]
 else
 set [button v] to [kit]
 ```
-
 ---/task ---
 
 
 --- task ---
-
 Now we can change between cosutmes using the button `variable`{:class="block3variables"}.
 
 If the button is set to pattern then change costume to pattern, else change costume to kit.
@@ -71,15 +64,13 @@ Put this inside forever block, otherwise it will only switch once.
 
 ```blocks3
 when flag clicked
-set (button) to [kit]
+set (button) to [pattern]
 forever
 if <(button) = [kit]> then
-switch costume to [kit-button] 
-end
-if <(button)=[pattern]> then
-switch costume to [pattern-button]
+switch costume to [pattern-button v] 
+else 
+switch costume to [kit-button v]
 ```
-
 --- /task ---
 
 
