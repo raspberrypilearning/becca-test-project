@@ -71,10 +71,11 @@ Put this inside forever block, otherwise it will only switch once.
 
 ```blocks3
 when flag clicked
-set [button] to [kit] // reset to kit
+set [button] to [kit]
 forever
 if <[button] = [kit]> then
-switch costume to [kit-button]
+switch costume to [kit-button] 
+end
 if <[button]=[pattern]> then
 switch costume to [pattern-button]
 ```
