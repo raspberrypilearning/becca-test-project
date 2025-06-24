@@ -52,10 +52,10 @@ Here is what the whole block looks like
 
 ```blocks3
 when this sprite clicked
-if <(button) = (kit)> then
-set [button v] to (pattern)
+if <(button) = [kit]> then
+set [button v] to [pattern]
 else
-set [button v] to (kit)
+set [button v] to [kit]
 ```
 
 ---/task ---
@@ -71,12 +71,12 @@ Put this inside forever block, otherwise it will only switch once.
 
 ```blocks3
 when flag clicked
-set [button] to [kit]
+set (button) to [kit]
 forever
-if <[button] = [kit]> then
+if <(button) = [kit]> then
 switch costume to [kit-button] 
 end
-if <[button]=[pattern]> then
+if <(button)=[pattern]> then
 switch costume to [pattern-button]
 ```
 
