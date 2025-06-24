@@ -17,7 +17,7 @@ Do this for each of the colours and test to make sure it works.
 --- /task ---
 
 --- task ---
-In the pattern sprite add the `receive`{:class="block3event"} block for each colour. 
+In the pattern sprite add the `receive`{:class="block3events"} block for each colour. 
 
 Add an `if`{:class="block3control"} block to this, and `switch costume`{:class="block3looks"} if the button is set as pattern. This is very similar to the blocks you made for the kit.
 
