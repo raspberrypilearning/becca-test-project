@@ -1,4 +1,4 @@
-title: Kit designer
+title: Kit chooser
 hero_image: images/banner.png
 description: default-project-template description
 version: 1
@@ -7,5 +7,7 @@ copyedit: false
 last_tested: "2025-01-01"
 steps:
   - title: What you will make
-  - title: Step title
-  - title: What can you do now?
+  - title: Creating your kit
+  - title: Adding decoration
+  - title: Choosing all the colours!
+  - title: Challange
