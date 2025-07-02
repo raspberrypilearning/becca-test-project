@@ -4,7 +4,6 @@ Making a button sprite to switch between colouring the kit and pattern.
 
 --- task ---
 Draw button 1 and add text for the kit. You could use a t-shirt shape or a regular button shape.
-
 --- /task ---
 
 --- task ---
@@ -41,19 +40,14 @@ Add an `if else`{:class="block3control"} block, this can be used to change what 
 
 `If`{:class="block3control"} the button is set to kit, then we change it to pattern. Otherwise (`else`{:class="block3control"}) we keep it set as kit.
 
-![gif of scratch operator block](images/button.gif)
-
----/task ---
-
-Here is what the whole block looks like
-
 ```blocks3
-when this sprite clicked
-if <(button) = [kit]> then
++ when this sprite clicked
++ if <(button) = [kit]> then
 set [button v] to [pattern]
 else
 set [button v] to [kit]
 ```
+---/task ---
 
 --- task ---
 Change between cosutmes using the button `variable`{:class="block3variables"}.
@@ -65,7 +59,7 @@ Put this inside forever block, otherwise it will only switch once.
 ```blocks3
 when flag clicked
 set (button) to [pattern]
-forever
++ forever
 if <(button) = [kit]> then
 switch costume to [pattern-button v] 
 else 
