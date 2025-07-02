@@ -3,7 +3,11 @@
 Making a button sprite to switch between colouring the kit and pattern. 
 
 --- task ---
+Make a new sprite.
+
 Draw button 1 and add text for the kit. You could use a t-shirt shape or a regular button shape.
+
+![kit srprite image](images/kit-button.png)
 --- /task ---
 
 --- task ---
