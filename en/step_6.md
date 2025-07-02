@@ -3,7 +3,7 @@
 In this step you can change the kit or pattern colours for a fully customised kit!
 
 --- task ---
-In the kit sprite add an `if`{:class="block3control"} block to the block you made earlier. This can swtich cosutmes only if the button is set as kit.
+In the kit sprite add an `if`{:class="block3control"} block to the block you made earlier. This will switch cosutmes only if the button is set as kit.
 
 ![kit sprite image](images/kit-sprite.png)
 
