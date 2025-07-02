@@ -1,8 +1,8 @@
 ## Decorate with a pattern
 
 Create a pattern sprite to decorate your kit.
---- task ---
 
+--- task ---
 Creaete a new sprite and name it pattern.
 --- /task ---
 
