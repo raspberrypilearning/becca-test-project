@@ -25,7 +25,6 @@ To toggle between the buttons, make a new `variable`{:class="block3variables"} a
 ![pop-up new variable name box in Scratch](images/make-variable.png)
 --- /task ---
 
-
 --- task ---
 Use the green `flag`{:class="block3events"} block and `set the button to pattern`{:class="block3variables"} 
 
