@@ -1,22 +1,36 @@
-## What can you do now?
+## Choose all the colours!
 
-If you are following the [PATH NAME](https://projects.raspberrypi.org/en/pathways/PATH-NAME) pathway, you can move on to the [NEXT PROJECT/PATH NAME](https://projects.raspberrypi.org/en/projects/PROJECT-SLUG) project. In this project, you will do DESCRIPTION.
+In this step you can change the kit or pattern colours for a fully customised kit!
 
------- OR ---------
+--- task ---
+In the kit sprite add an `if`{:class="block3control"} block to the block you made earlier. This can swtich cosutmes only if the button is set as kit.
 
-Try our [PROJECT/PATH NAME](https://projects.raspberrypi.org/en/collections/PATH-SLUG) project pathway where you will DESCRIPTION.
+```blocks3
+when I receive [blue v]
+if <(button) = [kit]> then
+ switch costume to [blue v]
+```
+Do this for each of the colours and test to make sure it works. 
 
---- print-only --- 
+![4 code blocks in scratch editor](images/add-if-kit.png)
 
-![ALT TEXT](images/IMAGE-FROM-PROJECT.png)
+--- /task ---
 
---- /print-only ---
+--- task ---
+In the pattern sprite add the `receive`{:class="block3events"} block for each colour. 
 
---- no-print ---
+Add an `if`{:class="block3control"} block to this, and `switch costume`{:class="block3looks"} if the button is set as pattern. This is very similar to the blocks you made for the kit.
 
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/STARTER_PROJECT_SLUG" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe>
+TIP! to save time you can copy and paste the blocks and just change the colour names.
 
---- /no-print ---
+```blocks3
+when I receive [pink v]
+if <(button) = [pattern]> then
+ switch costume to [pink v]
+```
 
-Or, why not try out another [CODING_LANGUAGE](https://projects.raspberrypi.org/en/projects?software%5B%5D=CODING_LANGUAGE) project.
+--- /task ---
+
+
+Test it out! You've made a kit chooser! You should be able to change the kit and pattern colours to create a custom design! 
+
