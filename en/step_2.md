@@ -3,7 +3,6 @@
 In this step you'll design the basics of the kit, and can add a background too.
 
 --- task ---
-
 Delete the cat sprite and create a sports kit, you could choose a sprite, or draw one with the paint tool.
 
 ![Sprite selection menu in Scratch with the “Choose a Sprite” button highlighted](images/choose.png)
@@ -11,7 +10,6 @@ Delete the cat sprite and create a sports kit, you could choose a sprite, or dra
 If you search for "shirt".
 
 ![Sprite selection screen in Scratch showing a shirt and a search for "shirt"](images/shirt.png)
-
 --- /task ---
 
 
