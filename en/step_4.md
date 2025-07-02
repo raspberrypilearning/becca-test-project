@@ -3,7 +3,7 @@
 Create a pattern sprite to decorate your kit.
 
 --- task ---
-Creaete a new sprite and name it pattern.
+Create a new sprite and name it pattern.
 --- /task ---
 
 --- task ---
