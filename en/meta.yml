@@ -7,17 +7,10 @@ copyedit: false
 last_tested: "2025-01-01"
 steps:
   - title: What you will make
-<<<<<<< HEAD
   - title: Create your kit
   - title: Make colour pickers
   - title: Decorate with a pattern
   - title: Add a button
   - title: Choose all the colours!
   - title: Challange
-  - title: What can you do now?
-=======
-  - title: Creating your kit
-  - title: Adding decoration
-  - title: Choosing all the colours!
-  - title: Challange
->>>>>>> 9d10f291e5df36bfab0a337930539de9d09f1d59
+
