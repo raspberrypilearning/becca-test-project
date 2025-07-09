@@ -1,36 +1,27 @@
-## Choosing all the colours!
+## Draw a pattern
 
-In this step you can change the kit or pattern colours for a fully customised kit!
+Create a pattern sprite to decorate your kit.
 
 --- task ---
-In the kit sprite add an `if`{:class="block3control"} block to the block you made earlier. This can swtich cosutmes only if the button is set as kit.
-
-```blocks3
-when I receive [blue v]
-if <(button) = [kit]> then
- switch costume to [blue v]
-```
-Do this for each of the colours and test to make sure it works. 
-
-![4 code blocks in scratch editor](images/add-if-kit.png)
-
+Create a new sprite and name it pattern.
 --- /task ---
 
 --- task ---
-In the pattern sprite add the `receive`{:class="block3events"} block for each colour. 
+Draw a shape for your pattern.
 
-Add an `if`{:class="block3control"} block to this, and `switch costume`{:class="block3looks"} if the button is set as pattern. This is very similar to the blocks you made for the kit.
-
-TIP! to save time you can copy and paste the blocks and just change the colour names.
-
-```blocks3
-when I receive [pink v]
-if <(button) = [pattern]> then
- switch costume to [pink v]
-```
-
+![Scratch editor - making pattern on shirt](images/pattern1.gif)
 --- /task ---
 
+--- task ---
+To create the pattern, copy and paste or draw a new shape and move to where you want it. Keep doing this until you have a pattern you like.
 
-Test it out! You've made a kit chooser! You should be able to change the kit and pattern colours to create a custom design! 
+![Scratch editor - making pattern on shirt](images/pattern.gif)
+--- /task ---
+
+--- task ---
+Right click to duplicate your pattern costume and fill in each colour. You might want to make the colours a bit different from the kit so that they stand out.
+
+![Scratch editor - making pattern on shirt](images/pattern.png)
+--- /task ---
+
 
