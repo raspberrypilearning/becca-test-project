@@ -16,7 +16,7 @@ You will:
  
 Make a kit with the finished version →
 <div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/1184134438/embed?autostart=false" frameborder="0"></iframe>
+ <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/1197305784/embed?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /no-print ---
